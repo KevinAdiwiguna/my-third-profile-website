@@ -6,7 +6,7 @@ import { Text } from "./Molecule/Text";
 
 export const About = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center px-10 lg:p-20 xl:p-40">
+    <div className="min-h-screen flex justify-center items-center px-10 lg:px-20 xl:px-40">
       <div className="mt-10">
         <div className="py-5 md:grid md:gap-10 md:grid-cols-2  md:justify-center md:items-center">
           <div className="">
