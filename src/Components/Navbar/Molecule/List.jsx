@@ -8,7 +8,7 @@ export const List = ({open}) => {
             <p><a href="" className={`text-primary ${open ? "opacity-100" : "opacity-0 pointer-events-none"} duration-300 `}>About</a></p>
         </div>
         <div className='text-center text-lg px-5 pb-4 pt-10 rounded-lg hover:bg-background'>
-            <i class="fa-solid fa-people-group text-secondary"></i>
+            <i className="fa-solid fa-people-group text-secondary"></i>
             <p><a href="" className={`text-primary ${open ? "opacity-100" : "opacity-0 pointer-events-none"} duration-300 `}>Team</a></p>
         </div>
         <div className='text-center text-lg px-5 pb-4 pt-10 rounded-lg hover:bg-background'>
