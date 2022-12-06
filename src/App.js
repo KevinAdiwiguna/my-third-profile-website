@@ -1,9 +1,9 @@
-import { Navbar } from "./Components/Navbar/Navbar";
+import { About } from "./Components/About/About";
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      <About />
     </div>
   );
 }
