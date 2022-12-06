@@ -1,7 +1,16 @@
 import React from 'react'
 
-export const Roles = ({teams}) => {
+export const Roles = ({ team }) => {
+  let rolesDetail = team.Roles
+  let testColor = "#0a192f"
   return (
-    <span className='bg-frontendweb text-primary p-1 m-1 rounded-xl '>Front End Web Developer</span>
+    <div>
+      {rolesDetail.map((res, key) => {
+        console.log(res.color)
+        return (
+          <span key={key} className={` bg-red-500 text-black p-1 m-1 rounded-xl`}>{res.name}</span>
+        )
+      })}
+    </div>
   )
 }
