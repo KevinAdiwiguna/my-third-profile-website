@@ -5,11 +5,11 @@ import { Title } from './Molecule/Title'
 export const Team = () => {
 
     let colorRoles = [
-        { FrontEndWeb: "#0008C1" }, 
-        { FrontEndMobile: "#CFFDE1" }, 
-        { UIUX: "#FF6D28" }, 
-        { BackEnd: "#6D67E4" }, 
-        { DevOps: "#EFF5F5" }
+        { FrontEndWeb: "0008C1" }, 
+        { FrontEndMobile: "CFFDE1" }, 
+        { UIUX: "FF6D28" }, 
+        { BackEnd: "6D67E4" }, 
+        { DevOps: "EFF5F5" }
     ]
     let teams = [
         {
@@ -20,7 +20,7 @@ export const Team = () => {
                 { color: colorRoles[2].UIUX, name: "UI/UX Designer" }
             ],
             socialMedia: [
-                { instagram: "htts://instagram.com/kevin.adiwiguna" },
+                { instagram: "https://instagram.com/kevin.adiwiguna" },
                 { linkedin: "https://www.linkedin.com/in/ida-bagus-kevin-adiwiguna-0b9107256/" },
                 { youtube: "https://www.youtube.com/channel/UCpc77q4G_-Q-IQriqbWyNMQ" },
                 { github: "https://github.com/KevinAdiwiguna" },
@@ -84,7 +84,7 @@ export const Team = () => {
 
     return (
         <div>
-            <div className='min-h-screen flex justify-center items-center'>
+            <div className='min-h-screen flex justify-center items-center mt-40'>
                 <div>
                     <Title teams={teams} />
                     <Card teams={teams} />

@@ -19,7 +19,7 @@ export const Card = ({ teams }) => {
                             <div id='job' className='m-2 text-xxs'>
                                 <Roles team={res}/>
                             </div>
-                            <SocialMedia />
+                            <SocialMedia team={res}/>
                         </div>
                     </div>
                 )
