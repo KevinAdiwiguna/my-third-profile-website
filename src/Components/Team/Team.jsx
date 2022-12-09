@@ -24,7 +24,8 @@ export const Team = () => {
                 { linkedin: "https://www.linkedin.com/in/ida-bagus-kevin-adiwiguna-0b9107256/" },
                 { youtube: "https://www.youtube.com/channel/UCpc77q4G_-Q-IQriqbWyNMQ" },
                 { github: "https://github.com/KevinAdiwiguna" },
-            ]
+            ],
+            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/kevin.jpg'
         },
         {
             name: "Tenvy",
@@ -37,7 +38,9 @@ export const Team = () => {
                 { linkedin: "" },
                 { youtube: "" },
                 { github: "" },
-            ]
+            ],
+            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/tenvy.png'
+
         },
         {
             name: "Raya",
@@ -50,7 +53,9 @@ export const Team = () => {
                 { linkedin: "" },
                 { youtube: "" },
                 { github: "https://github.com/rayakeren" },
-            ]
+            ],
+            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/kevin.jpg'
+
         },
         {
             name: "Bdoeh",
@@ -63,7 +68,9 @@ export const Team = () => {
                 { linkedin: "" },
                 { youtube: "" },
                 { github: "" },
-            ]
+            ],
+            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/kevin.jpg'
+
         },
         {
             name: "Jamharir",
@@ -75,7 +82,8 @@ export const Team = () => {
                 { linkedin: "" },
                 { youtube: "" },
                 { github: "" },
-            ]
+            ],
+            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/harir.jpg'
         },
 
 
@@ -86,7 +94,7 @@ export const Team = () => {
         <div>
             <div className='min-h-screen flex justify-center items-center mt-40'>
                 <div>
-                    <Title teams={teams} />
+                    <Title/>
                     <Card teams={teams} />
                 </div>
             </div>
