@@ -22,7 +22,7 @@ export const Navbar = () => {
 
 
   return (
-    <div className={` ${open ? "!w-80" : "w-20"}  ${scroll ? "w-0" : "w-20"}    h-screen bg-slidebar duration-300 fixed open z-10`
+    <div className={`${open ? "w-80" : "w-0"}  ${open ? "sm:!w-80" : "sm:w-20"}  ${scroll ? "sm:w-0" : "sm:w-20"}    h-screen bg-slidebar duration-300 fixed open z-10`
     }>
       <div className=''>
         <div className={`flex text-primary items-center p-8`} onClick={() => setOpen(!open)}>
