@@ -13,8 +13,8 @@ export const Card = ({ teams }) => {
             {teams.map((res, key) => {
                 console.log(res.img);
                 return (
-                    <div key={key} className='bg-primary max-w-xs text-black m-5'>
-                        <img src={res.img} alt="" className='w-full' />
+                    <div key={key} className='bg-primary max-w-xs text-black m-5 rounded-xl'>
+                        <img src={res.img} alt="" className='w-full rounded-xl' />
                         <div className='py-5 my-1'>
                             <p className='text-xl'>{res.name}</p>
                             <div id='job' className='m-2 text-xxs'>
