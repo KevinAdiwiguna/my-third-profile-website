@@ -54,7 +54,7 @@ export const Team = () => {
                 { youtube: "" },
                 { github: "https://github.com/rayakeren" },
             ],
-            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/kevin.jpg'
+            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/raya.png'
 
         },
         {
@@ -69,7 +69,7 @@ export const Team = () => {
                 { youtube: "" },
                 { github: "" },
             ],
-            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/kevin.jpg'
+            img:'https://raw.githubusercontent.com/KevinAdiwiguna/Only-Avatar/main/176.png'
 
         },
         {

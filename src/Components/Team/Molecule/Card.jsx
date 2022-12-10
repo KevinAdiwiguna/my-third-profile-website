@@ -11,7 +11,6 @@ export const Card = ({ teams }) => {
     return (
         <div className='text-primary my-6 m-auto text-center grid justify-center items-center md:grid-cols-2 lg:grid-cols-3'>
             {teams.map((res, key) => {
-                console.log(res.img);
                 return (
                     <div key={key} className='bg-primary max-w-xs text-black m-5 rounded-xl'>
                         <img src={res.img} alt="" className='w-full rounded-xl' />
