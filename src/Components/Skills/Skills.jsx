@@ -38,7 +38,7 @@ export const Skills = () => {
   ]
 
   return (
-    <div className='mx-5 mt-10  min-h-screen grid justify-center items-center'>
+    <div className='mx-5 mt-10  min-h-screen md:min-h-fit grid justify-center items-center md:my-96'>
       <Title />
       <SkillsBar data={dataBar}/>
     </div>
