@@ -5,7 +5,7 @@ import { Input } from './Molecule/Input'
 export const Contact = () => {
 
   return (
-    <div className=' mx-10 min-h-screen'>
+    <div className=' mx-10 md:mx-20 min-h-screen'>
 
       <div className='my-10'>
         <p className='text-primary text-4xl'>Contact <span className='text-secondary'>Us</span></p>
