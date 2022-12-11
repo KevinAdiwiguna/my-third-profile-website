@@ -7,7 +7,7 @@ export const Contact = () => {
   return (
     <div className=' mx-10 md:mx-20 min-h-screen'>
 
-      <div className='my-10'>
+      <div className='my-10 text-center'>
         <p className='text-primary text-4xl'>Contact <span className='text-secondary'>Us</span></p>
         <p className='text-primary'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas voluptas voluptates necessitatibus. Officia neque illum laudantium voluptate eaque debitis et vitae laborum, asperiores facilis totam ad. Accusantium, reprehenderit corrupti.</p>
       </div>
